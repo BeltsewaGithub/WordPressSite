@@ -1,0 +1,125 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#0072bc",
+					"name": "Colore 1",
+					"slug": "custom-color-1"
+				},
+				{
+					"color": "#f8f8f8",
+					"name": "Colore 2",
+					"slug": "custom-color-2"
+				},
+				{
+					"color": "#222222",
+					"name": "Colore 3",
+					"slug": "custom-color-3"
+				},
+				{
+					"color": "#428bca",
+					"name": "Colore 4",
+					"slug": "custom-color-4"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/NotoSans-Italic-VariableFont_wdthwght.ttf"
+							]
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/NotoSans-VariableFont_wdthwght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans\"",
+					"name": "Noto Sans",
+					"slug": "noto-sans"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/paragraph": {
+				"css": ""
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--custom-color-2)",
+			"text": "var(--wp--preset--color--custom-color-3)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--custom-color-1)",
+					"text": "var(--wp--preset--color--custom-color-2)"
+				}
+			},
+			"caption": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-color-3)"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-color-3)"
+				}
+			},
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--custom-color-4)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--custom-color-1)"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "12px"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}

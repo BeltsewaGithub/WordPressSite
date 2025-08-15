@@ -1,0 +1,60 @@
+<?php
+/**
+ * Title: index
+ * Slug: tributetogovpress/index
+ * Inserter: no
+ */
+?>
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"24px","left":"24px"}},"dimensions":{"minHeight":"50vh"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="min-height:50vh;padding-right:24px;padding-left:24px"><!-- wp:group {"align":"wide","style":{"border":{"radius":"5px"},"spacing":{"padding":{"right":"24px","left":"24px","top":"24px","bottom":"24px"}}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide has-white-background-color has-background" style="border-radius:5px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:columns {"align":"wide","textColor":"custom-color-3"} -->
+<div class="wp-block-columns alignwide has-custom-color-3-color has-text-color"><!-- wp:column {"width":"70%","style":{"spacing":{"padding":{"right":"10px","left":"10px"},"blockGap":"10px"}}} -->
+<div class="wp-block-column" style="padding-right:10px;padding-left:10px;flex-basis:70%"><!-- wp:group {"tagName":"main","align":"wide","style":{"border":{"radius":"5px"}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignwide" style="border-radius:5px"><!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"tagName":"main","enhancedPagination":true,"layout":{"contentSize":null,"type":"constrained"}} -->
+<main class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default","columnCount":3,"minimumColumnWidth":null}} -->
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:group {"style":{"dimensions":{"minHeight":"48px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group" style="min-height:48px"><!-- wp:post-title {"isLink":true} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"typography":{"fontSize":"14px"},"dimensions":{"minHeight":"48px"}},"layout":{"type":"flex"}} -->
+<div class="wp-block-group" style="min-height:48px;font-size:14px"><!-- wp:paragraph -->
+<p><?php esc_html_e('Posted on ', 'tributetogovpress');?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-date {"isLink":true} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"0px","right":"0px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:10px;padding-right:0px;padding-bottom:10px;padding-left:0px"><!-- wp:post-excerpt {"moreText":".. / ..","showMoreOnNewLine":false} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"40px"} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:group --></main>
+<!-- /wp:query --></main>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"30%","style":{"spacing":{"padding":{"right":"10px","left":"10px","top":"0px","bottom":"0px"},"blockGap":"24px"}}} -->
+<div class="wp-block-column" style="padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;flex-basis:30%"><!-- wp:template-part {"slug":"widget","area":"uncategorized"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

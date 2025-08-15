@@ -1,0 +1,351 @@
+# Translation of Themes - Mondrian in Russian
+# This file is distributed under the same license as the Themes - Mondrian package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-01 17:56:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Mondrian\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Theme inspired by Piet Mondrian. Designed for creating blogs and personal sites. This theme offers nine different filter effects for images and featured images. It also offers an effect that shows or hides the filter as the cursor hovers over the image."
+msgstr "Тема, вдохновленная Piet Mondrian /Питом Мондрианом/. Предназначена для создания блогов и персональных сайтов. Эта тема предлагает девять различных эффектов фильтрации для изображений и основных изображений. Она также предлагает эффект, который показывает или скрывает фильтр при наведении курсора на изображение."
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Mondrian"
+msgstr "Mondrian"
+
+#: patterns/tiziano-vecellio.php
+msgctxt "Pattern title"
+msgid "Tiziano Vecellio"
+msgstr "Tiziano Vecellio"
+
+#: patterns/raffaello-sanzio.php
+msgctxt "Pattern title"
+msgid "Raffaello Sanzio"
+msgstr "Raffaello Sanzio"
+
+#: patterns/michelangelo-buonarroti.php
+msgctxt "Pattern title"
+msgid "Michelangelo Buonarroti"
+msgstr "Michelangelo Buonarroti"
+
+#: patterns/leonardo-da-vinci.php
+msgctxt "Pattern title"
+msgid "Leonardo da Vinci"
+msgstr "Leonardo da Vinci"
+
+#: patterns/antonello-da-messina.php
+msgctxt "Pattern title"
+msgid "Antonello da Messina"
+msgstr "Antonello da Messina"
+
+#: functions.php:380 functions.php:381
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: functions.php:326
+msgid "→ Opacity"
+msgstr "→ Непрозрачность"
+
+#: functions.php:317
+msgid "Opacity →"
+msgstr "Непрозрачность →"
+
+#: functions.php:308
+msgid "→ Invert"
+msgstr "→ Инвертировать"
+
+#: functions.php:299
+msgid "Invert →"
+msgstr "Инвертировать →"
+
+#: functions.php:290
+msgid "→ Hue270"
+msgstr "→ Оттенок 270"
+
+#: functions.php:281
+msgid "Hue270 →"
+msgstr "Оттенок 270 →"
+
+#: functions.php:272
+msgid "→ Hue180"
+msgstr "→ Оттенок 180"
+
+#: functions.php:263
+msgid "Hue180 →"
+msgstr "Оттенок 180 →"
+
+#: functions.php:254
+msgid "→ Hue90"
+msgstr "→ Оттенок 90"
+
+#: functions.php:245
+msgid "Hue90 →"
+msgstr "Оттенок 90 →"
+
+#: functions.php:218
+msgid "→ Brightness"
+msgstr "→ Яркость"
+
+#: functions.php:209
+msgid "Brightness →"
+msgstr "Яркость →"
+
+#: functions.php:200
+msgid "→ Blur"
+msgstr "→ Размытие"
+
+#: functions.php:191
+msgid "Blur →"
+msgstr "Размытие →"
+
+#: functions.php:182
+msgid "→ Gray"
+msgstr "→ Серый"
+
+#: functions.php:173
+msgid "Gray →"
+msgstr "Серый →"
+
+#: functions.php:146
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: functions.php:137
+msgid "Invert"
+msgstr "Инвертировать"
+
+#: functions.php:128
+msgid "Hue-270"
+msgstr "Оттенок-270"
+
+#: functions.php:119
+msgid "Hue-180"
+msgstr "Оттенок-180"
+
+#: functions.php:110
+msgid "Hue-90"
+msgstr "Оттенок-90"
+
+#: functions.php:92
+msgid "Brightness"
+msgstr "Яркость"
+
+#: functions.php:83
+msgid "Blur"
+msgstr "Размытие"
+
+#: assets/benvenuto/benvenuto.php:91
+msgid "Please read the contents of the readme.txt file inside the main theme folder."
+msgstr "Прочитайте содержимое файла readme.txt в основной папке темы."
+
+#: assets/benvenuto/benvenuto.php:89
+msgid "Licenses"
+msgstr "Лицензии"
+
+#: assets/benvenuto/benvenuto.php:86
+msgid "Theme inspired by Mondrian. Designed for creating blogs and personal sites. This theme offers nine different filter effects for images and featured images. It also offers an effect that shows or hides the filter as the cursor hovers over the image."
+msgstr "Тема, вдохновленная Mondrian /Мондрианом/. Предназначена для создания блогов и персональных сайтов. Эта тема предлагает девять различных эффектов фильтрации для изображений и основных изображений. Она также предлагает эффект, который показывает или скрывает фильтр при наведении курсора на изображение."
+
+#: assets/benvenuto/benvenuto.php:84
+msgid "Description"
+msgstr "Описание"
+
+#: assets/benvenuto/benvenuto.php:81
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details."
+msgstr "Эта программа распространяется в надежде, что она окажется полезной, но БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ; даже без подразумеваемых гарантий ТОВАРНОЙ ПРИГОДНОСТИ или ПРИГОДНОСТИ ДЛЯ КАКОЙ-ЛИБО ЦЕЛИ. Более подробную информацию см. в Стандартной общественной лицензии GNU."
+
+#: assets/benvenuto/benvenuto.php:79
+msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version."
+msgstr "Эта программа является свободным программным обеспечением: Вы можете распространять ее и/или изменять в соответствии с условиями Стандартной общественной лицензии GNU, опубликованной Фондом свободного программного обеспечения, либо версии 2 этой лицензии, либо (по Вашему выбору) любой более поздней версии."
+
+#: assets/benvenuto/benvenuto.php:76
+msgid ""
+"Mondrian WordPress Theme, (C) 2024 masino1967 <br/>\n"
+"Mondrian is distributed under the terms of the GNU GPL."
+msgstr ""
+"Тема Mondrian WordPress, (C) 2024 masino1967 <br/>\n"
+"Mondrian распространяется на условиях GNU GPL."
+
+#: assets/benvenuto/benvenuto.php:74
+msgid "Copyright"
+msgstr "Авторское право"
+
+#: assets/benvenuto/benvenuto.php:68
+msgid ""
+"This is a free theme, created in my spare time, available exclusively on WordPress.org and designed for personal blogs.<br>If you like this theme, you can give me up to five stars on the theme page on WordPress.org: <a href=\"https://wordpress.org/support/theme/mondrian/reviews/#new-post\">Add your review</a>.<br>\n"
+"If you like you can also check out the other themes I have created for you: <a href=\"https://wordpress.org/themes/author/masino1967/\">@masino1967 themes</a>."
+msgstr ""
+"Это бесплатная тема, созданная в свободное время, доступная исключительно на WordPress.org и предназначенная для персональных блогов.<br> Если Вам нравится эта тема, Вы можете поставить мне до пяти звезд на странице темы на WordPress.org: <a href=\"https://wordpress.org/support/theme/mondrian/reviews/#new-post\">Добавьте свой отзыв</a>.<br>\n"
+"Если Вам понравится, Вы также можете посмотреть другие темы, которые я создал для Вас: <a href=\"https://wordpress.org/themes/author/masino1967/\">теми @masino1967</a>."
+
+#: assets/benvenuto/benvenuto.php:64 functions.php:227
+msgid "Contrast →"
+msgstr "Контраст →"
+
+#: assets/benvenuto/benvenuto.php:63 functions.php:335
+msgid "Saturate →"
+msgstr "Насыщенность →"
+
+#: assets/benvenuto/benvenuto.php:62 functions.php:353
+msgid "Sepia →"
+msgstr "Сепия →"
+
+#: assets/benvenuto/benvenuto.php:61
+msgid "Grayscale →"
+msgstr "Оттенки серого →"
+
+#: assets/benvenuto/benvenuto.php:51 functions.php:236
+msgid "→ Contrast"
+msgstr "→ Контрастность"
+
+#: assets/benvenuto/benvenuto.php:50 functions.php:344
+msgid "→ Saturate"
+msgstr "→ Насыщать"
+
+#: assets/benvenuto/benvenuto.php:49 functions.php:362
+msgid "→ Sepia"
+msgstr "→ Сепия"
+
+#: assets/benvenuto/benvenuto.php:48
+msgid "→ Grayscale"
+msgstr "→ Оттенки серого"
+
+#: assets/benvenuto/benvenuto.php:39 functions.php:101
+msgid "Contrast"
+msgstr "Контраст"
+
+#: assets/benvenuto/benvenuto.php:38 functions.php:155
+msgid "Saturate"
+msgstr "Насыщенность"
+
+#: assets/benvenuto/benvenuto.php:37 functions.php:164
+msgid "Sepia"
+msgstr "Сепия"
+
+#: assets/benvenuto/benvenuto.php:36 functions.php:74
+msgid "Grayscale"
+msgstr "Оттенки серого"
+
+#: assets/benvenuto/benvenuto.php:27
+msgid "Original"
+msgstr "Оригинал"
+
+#: assets/benvenuto/benvenuto.php:21
+msgid ""
+"This theme contains nine different image filters, which can be activated from the Styles section of the Image block of the editor.<br>Two filter modes:<br/> \n"
+"1) filter that changes the appearance of the image,<br/>\n"
+"2) filter that changes the appearance by hovering the mouse over the image."
+msgstr ""
+"Эта тема содержит девять различных фильтров изображений, которые можно активировать из раздела \"Стили\" блока \"Изображение\" редактора.<br> Два режима фильтрации:<br/>\n"
+"1) фильтр, который изменяет внешний вид изображения,<br/>\n"
+"2) фильтр, изменяющий внешний вид при наведении курсора мыши на изображение."
+
+#: assets/benvenuto/benvenuto.php:19 assets/benvenuto/benvenuto.php:30
+#: assets/benvenuto/benvenuto.php:31 assets/benvenuto/benvenuto.php:32
+#: assets/benvenuto/benvenuto.php:33 assets/benvenuto/benvenuto.php:42
+#: assets/benvenuto/benvenuto.php:43 assets/benvenuto/benvenuto.php:44
+#: assets/benvenuto/benvenuto.php:45 assets/benvenuto/benvenuto.php:55
+#: assets/benvenuto/benvenuto.php:56 assets/benvenuto/benvenuto.php:57
+#: assets/benvenuto/benvenuto.php:58
+msgid "street lamps"
+msgstr "уличные фонари"
+
+#: assets/benvenuto/benvenuto.php:11
+msgid "Welcome to the Mondrian theme."
+msgstr "Добро пожаловать в тему Mondrian."
+
+#: patterns/antonello-da-messina.php:39 patterns/leonardo-da-vinci.php:41
+#: patterns/michelangelo-buonarroti.php:39 patterns/raffaello-sanzio.php:39
+msgid "Not found."
+msgstr "Не найдено."
+
+#: patterns/tiziano-vecellio.php:26
+msgid "Resource not found: try searching using different terms."
+msgstr "Ресурс не найден: попробуйте поискать, используя другие термины."
+
+#: patterns/tiziano-vecellio.php:22
+msgid "404"
+msgstr "404"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "Системный шрифт"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Colore 4"
+msgstr "Цвет 4"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Colore 3"
+msgstr "Цвет 3"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Colore 2"
+msgstr "Цвет 2"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Colore 1"
+msgstr "Цвет 1"
+
+#: patterns/colorfields.php:54
+msgid "NEWSLETTER"
+msgstr "ИНФО БЮЛЛЕТЕНЬ"
+
+#: patterns/colorfields.php:44
+msgid "ADDRESS"
+msgstr "АДРЕС"
+
+#: patterns/colorfields.php:30
+msgid "CONTACT"
+msgstr "КОНТАКТ"
+
+#: patterns/colorfields.php:24
+msgid "ABOUT"
+msgstr "ПРО"
+
+#: patterns/colorfields.php
+msgctxt "Pattern description"
+msgid "Grid of four groups with a colored background that imitates the arrangement of the color fields in Piet Mondrian's paintings."
+msgstr "Сетка из четырех групп с цветным фоном, имитирующим расположение цветовых полей на картинах Пита Мондриана."
+
+#: patterns/colorfields.php
+msgctxt "Pattern title"
+msgid "Color Fields"
+msgstr "Цветные поля"
+
+#: functions.php:55
+msgid "Sfondo Nero"
+msgstr "Черный фон"
+
+#: functions.php:42
+msgid "Sfondo Rosso"
+msgstr "Красный фон"
+
+#: functions.php:29
+msgid "Sfondo Giallo"
+msgstr "Желтый фон"
+
+#: functions.php:15
+msgid "Sfondo Blu"
+msgstr "Синий фон"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "masino1967"
+msgstr "masino1967"
